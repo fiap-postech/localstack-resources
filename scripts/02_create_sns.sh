@@ -7,4 +7,5 @@ aws --endpoint-url=http://localhost:4566 sns create-topic --profile=localstack -
 aws --endpoint-url=http://localhost:4566 sns create-topic --profile=localstack --name local-payment-created-topic
 aws --endpoint-url=http://localhost:4566 sns create-topic --profile=localstack --name local-purchase-status-notification-topic
 aws --endpoint-url=http://localhost:4566 sns create-topic --profile=localstack --name local-purchase-paid-topic
+aws --endpoint-url=http://localhost:4566 sns create-topic --profile=localstack --name local-customer-remove-data-topic
 
